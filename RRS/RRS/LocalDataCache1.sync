@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<syncDesignerSurface dslVersion="1.0.0.0" Id="34ca3b7b-884e-4579-9b67-1113ed7dc62f" parentDesignerName="LocalDataCache1" codeGenerationMode="Client and Server" synchronizeInOneTransaction="false" clientFileLocation="dfda0604-7603-4ed5-87b6-828427e599e3" serverFileLocation="dfda0604-7603-4ed5-87b6-828427e599e3" isRootSyncDesigner="true" rootSyncDesignerShouldGenerateCode="true" isClientSyncDesigner="false" isServerSyncDesigner="false" changeTrackingType="SqlServerChangeTracking" xmlns="http://schemas.microsoft.com/dsltools/SyncDesigner">
+  <clientSyncProvider>
+    <clientSyncProvider Id="8fa24ea6-841b-403f-9d49-0e0175bfb613" name="LocalDataCache1ClientSyncProvider">
+      <syncConnection>
+        <syncConnectionMoniker name="/34ca3b7b-884e-4579-9b67-1113ed7dc62f/ClientConnection" />
+      </syncConnection>
+    </clientSyncProvider>
+  </clientSyncProvider>
+  <serverSyncProvider>
+    <serverSyncProvider Id="ff8ce307-c563-49f8-8d63-998b88c3f951" name="LocalDataCache1ServerSyncProvider">
+      <syncConnection>
+        <syncConnectionMoniker name="/34ca3b7b-884e-4579-9b67-1113ed7dc62f/ServerConnection" />
+      </syncConnection>
+      <selectNewAnchorCommand>
+        <syncAdapterCommandMoniker name="/34ca3b7b-884e-4579-9b67-1113ed7dc62f/selectNewAnchorCmd" />
+      </selectNewAnchorCommand>
+    </serverSyncProvider>
+  </serverSyncProvider>
+  <syncAgent>
+    <syncAgent name="LocalDataCache1SyncAgent" synchronizeInOneTransaction="false">
+      <serverSyncProvider>
+        <serverSyncProviderMoniker name="/34ca3b7b-884e-4579-9b67-1113ed7dc62f/LocalDataCache1ServerSyncProvider" />
+      </serverSyncProvider>
+      <clientSyncProvider>
+        <clientSyncProviderMoniker name="/34ca3b7b-884e-4579-9b67-1113ed7dc62f/LocalDataCache1ClientSyncProvider" />
+      </clientSyncProvider>
+    </syncAgent>
+  </syncAgent>
+  <syncAdapterCommands>
+    <syncAdapterCommand Id="8861c4f0-7b49-4b88-9b5e-980bd0dfaf80" commandText="Select @sync_new_received_anchor = CHANGE_TRACKING_CURRENT_VERSION()" commandType="Text" name="selectNewAnchorCmd" commandKind="SelectNewAnchorCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/34ca3b7b-884e-4579-9b67-1113ed7dc62f/@sync_new_received_anchor" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+  </syncAdapterCommands>
+  <syncAdapterCommandParameters>
+    <syncAdapterCommandParameter Id="9b0b8394-bd35-4668-8780-75f630ba7e3f" parameterType="BigInt" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor" parameterDirection="Output" />
+  </syncAdapterCommandParameters>
+  <syncConnections>
+    <syncConnection Id="68776821-90cd-4bb4-abbc-752b2edbc473" name="ClientConnection" connectionDisplayString="Database1ConnectionString (Settings)" isAppSettings="true" appSettingsObjectName="Settings" appSettingsPropertyName="Database1ConnectionString" appSettingsPropertyReference="" />
+    <syncConnection Id="41a81fe1-5860-4acc-99f1-714cf36adbb7" name="ServerConnection" connectionDisplayString="Database1ConnectionString1 (Settings)" isAppSettings="true" appSettingsObjectName="Settings" appSettingsPropertyName="Database1ConnectionString1" appSettingsPropertyReference="" />
+  </syncConnections>
+</syncDesignerSurface>
