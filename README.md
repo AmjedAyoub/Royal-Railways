@@ -8,7 +8,7 @@ The program has a back-end access by employees of the train transportation compa
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. They will also give an overview of some of the app's functionality.
 
-### Prerequisites
+### Requirements
 You will need Microsoft Visual studio installed if you want to run this application locally. For help installing Microsoft Visual studio, please [click here](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=community&rel=16).
 
 ### Installing
@@ -46,10 +46,10 @@ Ctrl + F5
 ### Contact us page
 ![Image](./assets/images/5.png)
  
-### Signup page
+### Sign up page
 ![Image](./assets/images/6.png)
  
-### Signin page
+### Sign in page
 ![Image](./assets/images/7.png)
  
 ### Passenger View Trips page
@@ -93,5 +93,5 @@ Ctrl + F5
 ## Links
 This program is published on [GitHub](https://github.com/AmjedAyoub/Royal-Railways).
 
-## Planned updates
+## Future updates
 At the moment, this app is the minimum viable product. For future updates; improve the UI/UX, and add more functionality and features such as building a mobile responsive application.
