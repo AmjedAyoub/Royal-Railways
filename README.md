@@ -93,5 +93,8 @@ Ctrl + F5
 ## Links
 This program is published on [GitHub](https://github.com/AmjedAyoub/Royal-Railways).
 
+## Authors
+See contribution history [here](https://github.com/AmjedAyoub/Royal-Railways/graphs/contributors).
+
 ## Future updates
 At the moment, this app is the minimum viable product. For future updates; improve the UI/UX, and add more functionality and features such as building a mobile responsive application.
