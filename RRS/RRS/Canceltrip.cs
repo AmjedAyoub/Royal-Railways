@@ -47,10 +47,8 @@ namespace RRS
                         else
                         {
                             MessageBox.Show("This trip has been started at\n" + DateTime.Parse(dr2["DepatureTime"].ToString()).ToString()+"\n You can NOT cancel this trip !!!");
-                        }
-                            
-                    }
-                    
+                        }                            
+                    }                    
                 }
                 dr2.Close();
                 label21.Text = "Total number of Trips : " + row;
