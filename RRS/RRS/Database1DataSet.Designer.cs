@@ -10,8 +10,7 @@
 
 #pragma warning disable 1591
 
-namespace RRS {
-    
+namespace RRS {    
     
     /// <summary>
     ///Represents a strongly typed in-memory cache of data.
