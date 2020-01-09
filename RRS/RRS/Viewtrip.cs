@@ -66,9 +66,7 @@ namespace RRS
         }
 
         private void button2_Click(object sender, EventArgs e)
-        {
-
-            
+        {            
             comboBox2.Text = "";
             comboBox3.Text = "";
             comboBox6.Text = "";
