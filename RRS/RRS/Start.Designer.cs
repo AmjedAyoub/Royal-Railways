@@ -21,7 +21,6 @@
         }
 
         #region Windows Form Designer generated code
-        
 
         /// <summary>
         /// Required method for Designer support - do not modify
@@ -231,7 +230,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
         #endregion
