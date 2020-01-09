@@ -374,7 +374,6 @@
             this.Load += new System.EventHandler(this.Form3_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
         #endregion
