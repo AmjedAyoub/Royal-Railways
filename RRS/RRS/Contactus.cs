@@ -18,7 +18,6 @@ namespace RRS
 
         private void label16_Click(object sender, EventArgs e)
         {
-
         }
 
         private void textBox2_KeyDown(object sender, KeyEventArgs e)
