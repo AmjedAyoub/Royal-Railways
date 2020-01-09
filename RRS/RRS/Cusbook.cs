@@ -299,7 +299,6 @@ namespace RRS
                                 s2 = true;
                             }
                         }
-
                     }
 
                 } if (row1 == 0)
@@ -314,8 +313,7 @@ namespace RRS
                 }
             } label21.Text = "Total number of Trips : " + row1;
             label67.Text = "Total number of Trips : " + row2;
-            dr1.Close();
-                
+            dr1.Close();                
         }
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
@@ -759,11 +757,8 @@ namespace RRS
             }
             if (panel6.Enabled && checkBox5.Enabled && checkBox5.Checked)
             {
-
                 if ((MessageBox.Show("Are you sure you want to book trip with RETURN ?", "Confirmation Window", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes))
                 {
-
-
                     if (confirm != "")
                     {
                         
@@ -866,8 +861,6 @@ namespace RRS
             {
                 if ((MessageBox.Show("Do you want to book this trip as ONE WAY trip ?", "Confirmation Window", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes))
                 {
-
-
                     if (confirm != "")
                     {
                         if (label46.Text != "No" && checkBox11.Checked == true)
