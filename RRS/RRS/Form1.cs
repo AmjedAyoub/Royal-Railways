@@ -74,10 +74,6 @@ namespace RRS
             if (i == 17) i = 0;
         }
 
-       
-            
-       
-        
         public void linkLabel6_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
            
@@ -300,12 +296,6 @@ namespace RRS
         {
 
         }
-
-
-
-
-
-
 
     }
 }
