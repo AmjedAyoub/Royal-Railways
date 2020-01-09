@@ -440,7 +440,6 @@ namespace RRS
                         dataGridView1.Rows.Insert(row, tname, comboBox1.Text, rp[s], rp[j], RDTime[s], RATime[j], rdur, rpa, rsto, rf, rb, re, meal, fseats, bseats, eseats, "0", "0", "0");
                         row++;
                     }
-
                 }
             }
             label21.Text = "Total number of Trips : " + row;
@@ -503,9 +502,7 @@ namespace RRS
             {
                 Program.xemp.backgr();
             }
-        }
-
-       
+        }      
         
     }
 }
