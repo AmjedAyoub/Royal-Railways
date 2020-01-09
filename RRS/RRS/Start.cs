@@ -33,7 +33,6 @@ namespace RRS
                 textBox1.Focus();
             }
             c++;
-            
         }
 
         public object s;
@@ -43,7 +42,6 @@ namespace RRS
         {   if (job == "cus")
             {
                 cusstatus = "out";
-
                 panel1.Show();
                 panel2.Controls.Clear();
                 textBox1.Focus();
@@ -52,7 +50,6 @@ namespace RRS
             if (job == "emp")
             {
                 empstatus = "out";
-
                 panel1.Show();
                 panel2.Controls.Clear();
                 textBox1.Focus();
@@ -61,7 +58,6 @@ namespace RRS
             if (job == "adm")
             {
                 admstatus = "out";
-
                panel1.Show();
                 panel2.Controls.Clear();
                 textBox1.Focus();
@@ -212,8 +208,5 @@ namespace RRS
                 button1_Click((object)sender, (EventArgs)e);
             }
         }
-
-        
-
     }
 }
