@@ -37,9 +37,7 @@ namespace RRS
                     comboBox1.DisplayMember = "Employee_Full_Name";
                     comboBox1.DataSource = dt;
                 }
-
-            }
-       
+            }       
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -74,14 +72,5 @@ namespace RRS
             this.Hide();
             Program.xadm.backgr();
         }
-        
-
-
-
-
-
-
-
-
     }
 }
