@@ -68,7 +68,6 @@ namespace RRS
                     comboBox1.DisplayMember = "Name";
                     comboBox1.DataSource = dt;
                 }
-
             }
         }
     }
